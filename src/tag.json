@@ -1,0 +1,365 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "materialidad": "Revestimiento de hormigón",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 2,
+            "materialidad": "Revestimiento de hormigón",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 3,
+            "materialidad": "Hierro fundido",
+            "empresa": "Movistar - Telefónica Chile",
+            "servicio": "-"
+        },
+        {
+            "id": 4,
+            "materialidad": "Revestimiento de baldosa",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 5,
+            "materialidad": "Revestimiento de baldosa",
+            "empresa": "Movistar - Telefónica Chile",
+            "servicio": "-"
+        },
+        {
+            "id": 6,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 7,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Colector Aguas Lluvias"
+        },
+        {
+            "id": 8,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 9,
+            "materialidad": "Prefabricada de hormigón",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 10,
+            "materialidad": "Metálica",
+            "empresa": "-",
+            "servicio": "-"
+        },
+        {
+            "id": 11,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Alcantarillado"
+        },
+        {
+            "id": 12,
+            "materialidad": "Revestimiento de hormigón",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 13,
+            "materialidad": "Acero dúctil",
+            "empresa": "Sin identificar",
+            "servicio": "Telecomunicaciones"
+        },
+        {
+            "id": 14,
+            "materialidad": "-",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 15,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Alcantarillado"
+        },
+        {
+            "id": 16,
+            "materialidad": "Prefabricada de hormigón",
+            "empresa": "-",
+            "servicio": "Alumbrado"
+        },
+        {
+            "id": 17,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 18,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 19,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Alcantarillado"
+        },
+        {
+            "id": 20,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 21,
+            "materialidad": "Metálica",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 22,
+            "materialidad": "-",
+            "empresa": "-",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 23,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 24,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 25,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 26,
+            "materialidad": "Revestimiento de hormigón",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Alcantarillado"
+        },
+        {
+            "id": 27,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "-"
+        },
+        {
+            "id": 28,
+            "materialidad": "-",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 29,
+            "materialidad": "-",
+            "empresa": "CTC - Compañía de Teléfonos de Chile",
+            "servicio": "-"
+        },
+        {
+            "id": 30,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 31,
+            "materialidad": "Revestimiento de baldosa",
+            "empresa": "Sin identificar",
+            "servicio": ""
+        },
+        {
+            "id": 32,
+            "materialidad": "Revestimiento de hormigón",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 33,
+            "materialidad": "Revestimiento de baldosa",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 34,
+            "materialidad": "Prefabricada de hormigón",
+            "empresa": "Sin identificar",
+            "servicio": "-"
+        },
+        {
+            "id": 35,
+            "materialidad": "Revestimiento de baldosa",
+            "empresa": "Metrogas",
+            "servicio": "-"
+        },
+        {
+            "id": 36,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 37,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 38,
+            "materialidad": "-",
+            "empresa": "Sin identificar",
+            "servicio": "Telecomunicaciones"
+        },
+        {
+            "id": 39,
+            "materialidad": "-",
+            "empresa": "Sin identificar",
+            "servicio": "Telecomunicaciones"
+        },
+        {
+            "id": 40,
+            "materialidad": "Acero dúctil",
+            "empresa": "VTR - Metropoli Intercom",
+            "servicio": "-"
+        },
+        {
+            "id": 41,
+            "materialidad": "-",
+            "empresa": "Sin identificar",
+            "servicio": "Telecomunicaciones"
+        },
+        {
+            "id": 42,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 43,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "-"
+        },
+        {
+            "id": 44,
+            "materialidad": "Acero diamantado",
+            "empresa": "Municipalidad",
+            "servicio": "Agua potable"
+        },
+        {
+            "id": 45,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 46,
+            "materialidad": "-",
+            "empresa": "Municipalidad",
+            "servicio": "Colector Aguas Lluvias"
+        },
+        {
+            "id": 47,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "-"
+        },
+        {
+            "id": 48,
+            "materialidad": "-",
+            "empresa": "Domiciliaria",
+            "servicio": "Alcantarillado"
+        },
+        {
+            "id": 49,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 50,
+            "materialidad": "-",
+            "empresa": "GTD Manquehue - Telefónica Manquehue",
+            "servicio": "-"
+        },
+        {
+            "id": 51,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 52,
+            "materialidad": "-",
+            "empresa": "Sin identificar",
+            "servicio": "Telecomunicaciones"
+        },
+        {
+            "id": 53,
+            "materialidad": "-",
+            "empresa": "Chilectra - ENEL",
+            "servicio": "-"
+        },
+        {
+            "id": 54,
+            "materialidad": "-",
+            "empresa": "Aguas Andinas - EMOS",
+            "servicio": "Sin identificar"
+        },
+        {
+            "id": 55,
+            "materialidad": "-",
+            "empresa": "-",
+            "servicio": "Alcantarillado"
+        },
+        {
+            "id": 56,
+            "materialidad": "-",
+            "empresa": "-",
+            "servicio": "-"
+        },
+        {
+            "id": 57,
+            "materialidad": "-",
+            "empresa": "-",
+            "servicio": "-"
+        },
+        {
+            "id": 58,
+            "materialidad": "-",
+            "empresa": "-",
+            "servicio": "-"
+        },
+        {
+            "id": 59,
+            "materialidad": "-",
+            "empresa": "-",
+            "servicio": "-"
+        },
+        {
+            "id": 60,
+            "materialidad": "-",
+            "empresa": "-",
+            "servicio": "-"
+        }
+
+    ]
+}

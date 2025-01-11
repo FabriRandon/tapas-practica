@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar Imágenes</title>
+    <style>
+        .filters {
+            margin-bottom: 20px;
+        }
+        .filters select {
+            margin-right: 10px;
+        }
+        .images-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .images-container img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Biblioteca de Tapas</h1>
+    <div class="filters">
+        <label for="materialidad">Materialidad:</label>
+        <select id="materialidad">
+            <option value="">Todos</option>
+        </select>
+
+        <label for="empresa">Empresa:</label>
+        <select id="empresa">
+            <option value="">Todos</option>
+        </select>
+
+        <label for="servicio">Servicio:</label>
+        <select id="servicio">
+            <option value="">Todos</option>
+        </select>
+    </div>
+
+    <div class="images-container" id="images-container"></div>
+
+    <script>
+        // Cargar datos del JSON
+        fetch('/tag.json')
+            .then(response => response.json())
+            .then(data => {
+                const images = data.images;
+
+                // Elementos del DOM
+                const materialidadSelect = document.getElementById('materialidad');
+                const empresaSelect = document.getElementById('empresa');
+                const servicioSelect = document.getElementById('servicio');
+                const imagesContainer = document.getElementById('images-container');
+
+                // Obtener valores únicos para los filtros
+                const uniqueValues = (key) => [...new Set(images.map(img => img[key]).filter(value => value && value !== '-'))];
+
+                // Agregar opciones a los filtros
+                const populateFilter = (selectElement, values) => {
+                    values.forEach(value => {
+                        const option = document.createElement('option');
+                        option.value = value;
+                        option.textContent = value;
+                        selectElement.appendChild(option);
+                    });
+                };
+
+                populateFilter(materialidadSelect, uniqueValues('materialidad'));
+                populateFilter(empresaSelect, uniqueValues('empresa'));
+                populateFilter(servicioSelect, uniqueValues('servicio'));
+
+                // Mostrar imágenes
+                const displayImages = (filter = {}) => {
+                    imagesContainer.innerHTML = '';
+                    images
+                        .filter(img => 
+                            (!filter.materialidad || img.materialidad === filter.materialidad) &&
+                            (!filter.empresa || img.empresa === filter.empresa) &&
+                            (!filter.servicio || img.servicio === filter.servicio)
+                        )
+                        .forEach(img => {
+                            const imgElement = document.createElement('img');
+                            imgElement.src = `src/images/${img.id}.png`;
+                            imgElement.alt = `Tapa ${img.id}`;
+                            imagesContainer.appendChild(imgElement);
+                        });
+                };
+
+                // Mostrar todas las imágenes al inicio
+                displayImages();
+
+                // Manejar cambios en los filtros
+                const handleFilterChange = () => {
+                    const filter = {
+                        materialidad: materialidadSelect.value,
+                        empresa: empresaSelect.value,
+                        servicio: servicioSelect.value,
+                    };
+                    displayImages(filter);
+                };
+
+                materialidadSelect.addEventListener('change', handleFilterChange);
+                empresaSelect.addEventListener('change', handleFilterChange);
+                servicioSelect.addEventListener('change', handleFilterChange);
+            })
+            .catch(err => console.error('Error al cargar JSON:', err));
+    </script>
+    <h1>Consejos</h1>
+    <ul>
+        <li>Cuando la tapa dice agua potable o alcantarillado, implica que es de Aguas Andinas</li>
+        <li>Las tapas que dicen MAP: Medidor de Agua potable, si están en jardines de una plaza, parque
+            o en las áreas verdes más cercanas a la calzada, son de la Municipalidad.
+        </li>
+        <li>Cuando las tapas están pegadas o cercanas aun edificio o propiedad privada, pero en área pública,
+            implica que son de dicha propiedad y no de una empresa específica.
+        </li>
+        <li>Las tapas de ENEL tipo calzada suelen ser redondas, de fierro fundido reticulado y con relleno de hormigón.
+            distintas a las de la calzada de Aguas Andinas, que son lisas.
+        </li>
+        <li>Todo el alumbrad público es municipal</li>
+        <li>CTM significa GTD Manquegue (Compañía Telefónica Manquehue).</li>
+        <li>Las cámaras de alumbrado nunca tendrán grandes dimensiones, normalmente son de 40x40cm.</li>
+        <li>Los semáforos y sumideros son municipales.</li>
+    </ul>
+    
+
+</body>
+</html>
