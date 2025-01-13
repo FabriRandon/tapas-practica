@@ -8,7 +8,7 @@
         },
         {
             "id": 2,
-            "materialidad": "Revestimiento de hormigón",
+            "materialidad": "Revestimiento de baldosa",
             "empresa": "Sin identificar",
             "servicio": "-"
         },
@@ -16,7 +16,7 @@
             "id": 3,
             "materialidad": "Hierro fundido",
             "empresa": "Movistar - Telefónica Chile",
-            "servicio": "-"
+            "servicio": "Telecomunicaciones"
         },
         {
             "id": 4,
@@ -26,26 +26,26 @@
         },
         {
             "id": 5,
-            "materialidad": "-",
+            "materialidad": "Revestimiento de hormigón",
             "empresa": "Movistar - Telefónica Chile",
-            "servicio": "-"
+            "servicio": "Telecomunicaciones"
         },
         {
             "id": 6,
-            "materialidad": "-",
+            "materialidad": "Revestimiento de hormigón",
             "empresa": "Aguas Andinas - EMOS",
             "servicio": "Agua potable"
         },
         {
             "id": 7,
-            "materialidad": "-",
+            "materialidad": "Revestimiento de hormigón",
             "empresa": "Aguas Andinas - EMOS",
             "servicio": "Colector Aguas Lluvias"
         },
         {
             "id": 8,
-            "materialidad": "-",
-            "empresa": "Aguas Andinas - EMOS",
+            "materialidad": "Acero diamantado",
+            "empresa": "Municipalidad",
             "servicio": "Agua potable"
         },
         {
@@ -62,7 +62,7 @@
         },
         {
             "id": 11,
-            "materialidad": "-",
+            "materialidad": "Revestimiento de hormigón",
             "empresa": "Aguas Andinas - EMOS",
             "servicio": "Alcantarillado"
         },
